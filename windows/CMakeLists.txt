@@ -65,7 +65,7 @@ endif()
 set(INSTALL_BUNDLE_DATA_DIR "${CMAKE_INSTALL_PREFIX}/data")
 set(INSTALL_BUNDLE_LIB_DIR "${CMAKE_INSTALL_PREFIX}")
 
-include(${CMAKE_SOURCE_DIR}/../modules/libgreet/dartimport.cmake)
+include(${CMAKE_SOURCE_DIR}/../go_lib/dartimport.cmake)
 
 install(TARGETS ${BINARY_NAME} RUNTIME DESTINATION "${CMAKE_INSTALL_PREFIX}"
   COMPONENT Runtime)
