@@ -47,4 +47,5 @@ $(GOLIB)/build/lib/libgreet.%:
 
 .PHONY: clean
 clean:
-	$(MAKE) -C $(GOLIB)
+	$(MAKE) -C $(GOLIB) clean
+	rm -rf build/
