@@ -27,4 +27,4 @@ $(BUILDDIR)/libgreet$(LIBEXT): main.go
 
 .PHONY: clean
 clean:
-	rm -r $(BUILDDIR)
+	rm -rf build/
